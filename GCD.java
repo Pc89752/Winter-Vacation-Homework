@@ -20,7 +20,7 @@ public class GCD {
         if (nums.get(0) > nums.get(1)) {
             int temp = nums.get(0);
             nums.set(0,nums.get(1));
-            nums.set(1,nums.get(0));
+            nums.set(1,temp);
         }
 
         //3> Find GCD :
