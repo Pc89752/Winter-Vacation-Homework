@@ -25,7 +25,7 @@ public class GCD {
 
         //3> Find GCD :
         int GCD = 0;
-        for (int i = (int)Math.pow(nums.get(0),0.5)+ 1; i > 0 ; i--) {
+        for (int i = nums.get(0); i > 0 ; i--) {
             if(nums.get(0) % i == 0){
                 if (nums.get(1) % i == 0) {
                     GCD = i;
